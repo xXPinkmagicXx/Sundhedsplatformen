@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ststool:STSDiagram xmlns:ststool="http://sts-tool.eu/ststool/model/2.0.0">
+  <graphicalConstraint viewID="it.unitn.disi.ststool.view.social"/>
+</ststool:STSDiagram>

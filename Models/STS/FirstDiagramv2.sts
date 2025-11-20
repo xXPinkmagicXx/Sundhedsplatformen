@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ststool:STSDiagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ststool="http://sts-tool.eu/ststool/model/2.0.0" author="" description="">
+  <graphicalConstraint viewID="it.unitn.disi.ststool.view.social"/>
+  <elements xsi:type="ststool:Role" id="r0d01ee95-9aec-427a-ae50-7862ed7a0a85" description="The person treating the patient" name="Nurse" outgoingAuthorizations="ac857280e-8b9f-4ce7-9003-e1579aeb0f7c" incomingAuthorizations="a85b7eb17-3449-4bc8-ba5d-7f4a39eaefdf" incomingDelegations="da8125143-a8d8-43c9-ba33-bc52d295c04b" outgoingDelegations="d0beaf905-aa3e-46d0-98d0-60fe6edaa529" incomingTransmissions="ta3f0bdfd-65cb-4ddb-aada-d1ffc6ccedf6 t7cc61ac6-980b-49a5-8977-f124ec893d34" outgoingTransmissions="tc63d727e-ae4d-4435-837e-4ed2222d4e66 t080a79d2-ebc8-429f-8ddb-5e0f50eb6180" goals="gdea0c66b-ef4a-4044-93d5-1b1c6f791654 g2877210a-38df-4873-b573-e9dbed2ac4c7 gc114f3df-6fa6-4273-884b-1ad0a8437372" documents="d997a6a1a-cb4f-478e-b3d1-2f74c945ef1d ddc7eed4a-79a8-4e70-9cd7-b2cc72989f55" mission="To treat the patient" purpose="to provide the best care">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="376,401,424,250">
+      <properties name="compartment" value="true"/>
+      <properties name="compartment_switch" value="100,100"/>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="1346,247,150,150">
+      <properties name="compartment" value="true"/>
+      <properties name="compartment_switch" value="100,100"/>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="1075,342,100,100"/>
+  </elements>
+  <elements xsi:type="ststool:Role" id="re8394e69-449f-4c57-84c3-9219e716cd4e" description="This is the one beeing treated" name="Patient" informations="od4a4e7a8-efff-4f8e-ab0b-90e0691773fe o28cb711e-8984-44e3-9f47-6e73be816337 o23231394-1dac-438e-a117-fb487a27b202 odbbae20a-8819-4cb3-8b64-d5f13129256d o9f8d3855-d2a5-4de7-851a-8394423166a9" outgoingAuthorizations="acaf963dd-28ee-4511-8bb0-02161f375e88 af35117bc-7161-4fcd-9037-118585ce8b5c afc35d514-9304-47bc-820b-4abe5d697132 a8334bd75-7dc4-40c4-a04b-bd14aa97ccbd" outgoingDelegations="d0674ee9e-e497-4511-80f3-5a39bdacf866 dc1b233e7-fb2a-4268-8cc5-2c97d6ce0d1d" incomingTransmissions="tb38bccfc-71be-47f0-927e-d92b7e9fdff1" outgoingTransmissions="t1f08c61d-b970-4181-b17f-03339fa61aa2 t30cce17f-027f-4021-82cc-3fbf20ec26dd" goals="g39893fae-7003-42e1-a04d-fe58fde11c99 gf69234ca-932f-4ccd-b8eb-a352087fd1f6 gcd4937eb-87fd-4dc3-8663-b05861bed980" documents="d4122dbf6-9ee0-44c9-ab98-ed820cd2f859 de2289737-ff04-44c8-a424-0cb8e9652d8a d204dd52f-138d-4809-866d-50b346b2b678 d44b2f3d2-de47-4179-9d97-db6f1ed07b5f d95f9db8a-ecfd-44a3-ba01-1b85af1d64f4 dd317a52d-89a5-47d0-98b9-ff78ff25e707" mission="To get treated" purpose="To live">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="858,241,406,372">
+      <properties name="compartment" value="true"/>
+      <properties name="compartment_switch" value="100,100"/>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="549,323,640,304">
+      <properties name="compartment" value="true"/>
+      <properties name="compartment_switch" value="100,100"/>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="634,405,100,100"/>
+  </elements>
+  <elements xsi:type="ststool:Role" id="rc599f9ea-725d-46a8-bdda-5f2d99f243c8" description="The docter treating the patient" name="Doctor" incomingAuthorizations="a96543a4c-ddeb-47d4-9aea-3d72934c5bdf aac560279-283c-4e45-8fc7-2b5162de4b7f" incomingDelegations="d613a6c35-6963-4d55-ad81-9b5b5ce9d4f1" outgoingDelegations="d93d5de50-f551-43ce-a2e2-deaad4dc7212" incomingTransmissions="t2ad9bbc7-5563-4698-8b9a-dc7361dd1924" goals="g4b20bc78-432a-4f18-af47-f9c77c4de916 gd704fe4b-d02d-4ef5-ba09-bc4d41993839 g9c6c2740-28ca-4af4-b77a-501d61f05927" documents="db936048e-be48-4e32-8bee-8a239d658a16">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="1365,307,328,284">
+      <properties name="compartment" value="true"/>
+      <properties name="compartment_switch" value="100,100"/>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="1334,80,150,150">
+      <properties name="compartment" value="true"/>
+      <properties name="compartment_switch" value="100,100"/>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="470,621,100,100"/>
+  </elements>
+  <elements xsi:type="ststool:Role" id="r04c8b17f-a0d1-44f9-be54-210abac6ee18" description="A person related to the patient" name="Familiy/Related">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="1336,72,150,150">
+      <properties name="compartment" value="true"/>
+      <properties name="compartment_switch" value="100,100"/>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="1159,99,150,150">
+      <properties name="compartment" value="true"/>
+      <properties name="compartment_switch" value="100,100"/>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="133,98,100,100"/>
+  </elements>
+  <elements xsi:type="ststool:Goal" id="g39893fae-7003-42e1-a04d-fe58fde11c99" description="" name="Treatment Recieved" references="g2877210a-38df-4873-b573-e9dbed2ac4c7" incomingDecompositions="gcbb528c9-9c3e-4b1d-8e01-4b9a3ee5541f" delegatedTo="dd443eab3-9312-4f44-bfbf-3a139cfec8d7" actorOwner="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="52,157,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Document" id="d4122dbf6-9ee0-44c9-ab98-ed820cd2f859" name="Patient Records" subParts="pe03beda9-2ac2-416c-9b26-650c0b91a899 pd6b0804f-40f5-476f-887f-2825806b8b24" actorOwner="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="71,220,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="133,51,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Goal" id="gdea0c66b-ef4a-4044-93d5-1b1c6f791654" name="Medication Drug Recieved" references="g772d3617-e3e4-4cc8-8797-0fcab14b020a" incomingDecompositions="g247f74a8-6f35-44c3-a535-a216b27bd94c" delegatedTo="d0f7a9504-4806-4e91-af16-674a6da5e510" actorOwner="r0d01ee95-9aec-427a-ae50-7862ed7a0a85">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="158,153,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Document" id="de2289737-ff04-44c8-a424-0cb8e9652d8a" name="Personal Info" partsOf="pe03beda9-2ac2-416c-9b26-650c0b91a899" intangibleElements="t198514e0-3297-4561-a38c-d61efed1b495 t2b1476fc-3a71-4b9d-aede-547e770c0fcd" actorOwner="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="71,294,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="43,142,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:PartOf" id="pe03beda9-2ac2-416c-9b26-650c0b91a899" source="de2289737-ff04-44c8-a424-0cb8e9652d8a" target="d4122dbf6-9ee0-44c9-ab98-ed820cd2f859">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Document" id="d204dd52f-138d-4809-866d-50b346b2b678" name="Medical History" partsOf="pd6b0804f-40f5-476f-887f-2825806b8b24" subParts="pbedf8ed1-6fe0-4767-9f2d-32d4586edd7f" references="db936048e-be48-4e32-8bee-8a239d658a16" actorOwner="re8394e69-449f-4c57-84c3-9219e716cd4e" TransmittedTo="t15336de9-8534-4c16-8a8a-1d45bdd94678">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="202,288,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="295,52,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:PartOf" id="pd6b0804f-40f5-476f-887f-2825806b8b24" source="d204dd52f-138d-4809-866d-50b346b2b678" target="d4122dbf6-9ee0-44c9-ab98-ed820cd2f859">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Role" id="r9abece32-a8b1-484b-bd0b-2da0c4c99fb6" name="Pharmacy" incomingAuthorizations="ad6c5d219-f37c-479f-88e5-efc252046cc4" incomingDelegations="d7a080236-4638-415f-b5fd-8b00f699b901" incomingTransmissions="tb80b1186-ae55-4c05-a5ad-2c495b0f62ec" outgoingTransmissions="t5b377e84-80b9-40ea-85ce-0b35f028041d" goals="g772d3617-e3e4-4cc8-8797-0fcab14b020a gbf917ecc-754d-43f3-b1c3-984ff34d590d g4cf17dac-d4ef-41a1-b722-d6fac2891002" documents="d6c73d888-33a8-429b-a626-e38260ebd4f2 d6191456f-56c3-4fb1-9eb5-c45b05088549">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="23,557,350,290">
+      <properties name="compartment" value="true"/>
+      <properties name="compartment_switch" value="100,100"/>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="1388,429,328,286">
+      <properties name="compartment" value="true"/>
+      <properties name="compartment_switch" value="100,100"/>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="1270,505,100,100"/>
+  </elements>
+  <elements xsi:type="ststool:Role" id="r0aa83cff-fc84-4043-ab50-8710131c7e8b" name="Lab" informations="of31ae15c-6711-45a7-bcfe-175b33343c17" incomingAuthorizations="acc663582-7d60-4fac-9934-3734af690093" incomingDelegations="d96e3752c-c4f9-40f1-a382-4fe518daf29f" goals="gc1aed20d-04fd-4d63-bd6e-6b4586f2197e" documents="d4f483403-2133-4931-a5b2-36ee4a49df0a">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="1411,662,284,178">
+      <properties name="compartment" value="true"/>
+      <properties name="compartment_switch" value="100,100"/>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="1160,614,180,178">
+      <properties name="compartment" value="true"/>
+      <properties name="compartment_switch" value="100,100"/>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="955,491,100,100"/>
+  </elements>
+  <elements xsi:type="ststool:GoalReference" id="g772d3617-e3e4-4cc8-8797-0fcab14b020a" name="Medication Drug Recieved" outgoingDecompositions="g0a0723a6-62e7-4325-95a7-bd32cdea4a2f g5b75b004-af1c-4afb-9a3c-14437de848f7" actorOwner="r9abece32-a8b1-484b-bd0b-2da0c4c99fb6" reference="gdea0c66b-ef4a-4044-93d5-1b1c6f791654" delegatedFrom="d0f7a9504-4806-4e91-af16-674a6da5e510">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="48,103,100,70"/>
+  </elements>
+  <elements xsi:type="ststool:DelegationIncomingLink" id="d0beaf905-aa3e-46d0-98d0-60fe6edaa529" target="d0f7a9504-4806-4e91-af16-674a6da5e510" source="r0d01ee95-9aec-427a-ae50-7862ed7a0a85">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:DelegationOutgoingLink" id="d7a080236-4638-415f-b5fd-8b00f699b901" source="d0f7a9504-4806-4e91-af16-674a6da5e510" target="r9abece32-a8b1-484b-bd0b-2da0c4c99fb6">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Delegation" id="d0f7a9504-4806-4e91-af16-674a6da5e510" name="Medication Drug Recieved" incomingDelegationLink="d0beaf905-aa3e-46d0-98d0-60fe6edaa529" outgoingDelegationLink="d7a080236-4638-415f-b5fd-8b00f699b901" targetGoal="g772d3617-e3e4-4cc8-8797-0fcab14b020a" sourceGoal="gdea0c66b-ef4a-4044-93d5-1b1c6f791654">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="184,441,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Document" id="d44b2f3d2-de47-4179-9d97-db6f1ed07b5f" name="Current Diagnosis" partsOf="pbedf8ed1-6fe0-4767-9f2d-32d4586edd7f" subParts="p98c1d363-b0cf-4a28-b6a6-23ce2f0a1187" references="d997a6a1a-cb4f-478e-b3d1-2f74c945ef1d d6c73d888-33a8-429b-a626-e38260ebd4f2" intangibleElements="t26e01edd-9644-44ba-bd49-20819ed9ec59" actorOwner="re8394e69-449f-4c57-84c3-9219e716cd4e" TransmittedTo="t25a0a0d5-6f5a-4ca7-bdb3-dbba8deb9992">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="223,223,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="295,146,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:PartOf" id="pbedf8ed1-6fe0-4767-9f2d-32d4586edd7f" source="d44b2f3d2-de47-4179-9d97-db6f1ed07b5f" target="d204dd52f-138d-4809-866d-50b346b2b678">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:DocumentReference" id="d997a6a1a-cb4f-478e-b3d1-2f74c945ef1d" name="Current Diagnosis" actorOwner="r0d01ee95-9aec-427a-ae50-7862ed7a0a85" TransmittedTo="t226f41d6-11e5-438d-854f-b6d66408c45f" reference="d44b2f3d2-de47-4179-9d97-db6f1ed07b5f" transmittedFrom="t25a0a0d5-6f5a-4ca7-bdb3-dbba8deb9992">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="219,65,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:TransmissionIncomingLink" id="t1f08c61d-b970-4181-b17f-03339fa61aa2" target="t25a0a0d5-6f5a-4ca7-bdb3-dbba8deb9992" source="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:TransmissionOutgoingLink" id="ta3f0bdfd-65cb-4ddb-aada-d1ffc6ccedf6" source="t25a0a0d5-6f5a-4ca7-bdb3-dbba8deb9992" target="r0d01ee95-9aec-427a-ae50-7862ed7a0a85">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Transmission" id="t25a0a0d5-6f5a-4ca7-bdb3-dbba8deb9992" name="Current Diagnosis" outgoingTransmissionLink="ta3f0bdfd-65cb-4ddb-aada-d1ffc6ccedf6" incomingTransmissionLink="t1f08c61d-b970-4181-b17f-03339fa61aa2" sourceDocument="d44b2f3d2-de47-4179-9d97-db6f1ed07b5f" targetDocument="d997a6a1a-cb4f-478e-b3d1-2f74c945ef1d">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="380,262,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:DocumentReference" id="d6c73d888-33a8-429b-a626-e38260ebd4f2" name="Current Diagnosis" actorOwner="r9abece32-a8b1-484b-bd0b-2da0c4c99fb6" reference="d44b2f3d2-de47-4179-9d97-db6f1ed07b5f" transmittedFrom="t226f41d6-11e5-438d-854f-b6d66408c45f">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="176,70,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:TransmissionIncomingLink" id="tc63d727e-ae4d-4435-837e-4ed2222d4e66" target="t226f41d6-11e5-438d-854f-b6d66408c45f" source="r0d01ee95-9aec-427a-ae50-7862ed7a0a85">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:TransmissionOutgoingLink" id="tb80b1186-ae55-4c05-a5ad-2c495b0f62ec" source="t226f41d6-11e5-438d-854f-b6d66408c45f" target="r9abece32-a8b1-484b-bd0b-2da0c4c99fb6">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Transmission" id="t226f41d6-11e5-438d-854f-b6d66408c45f" name="Current Diagnosis" outgoingTransmissionLink="tb80b1186-ae55-4c05-a5ad-2c495b0f62ec" incomingTransmissionLink="tc63d727e-ae4d-4435-837e-4ed2222d4e66" sourceDocument="d997a6a1a-cb4f-478e-b3d1-2f74c945ef1d" targetDocument="d6c73d888-33a8-429b-a626-e38260ebd4f2">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="107,358,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Goal" id="gbf917ecc-754d-43f3-b1c3-984ff34d590d" name="Teatment Mixed" resourcesProduced="pebfd5b91-fa21-4950-aa21-ec11d24b9a8e" incomingDecompositions="g0a0723a6-62e7-4325-95a7-bd32cdea4a2f" actorOwner="r9abece32-a8b1-484b-bd0b-2da0c4c99fb6">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="45,195,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:GoalDecomposition" id="g0a0723a6-62e7-4325-95a7-bd32cdea4a2f" source="g772d3617-e3e4-4cc8-8797-0fcab14b020a" target="gbf917ecc-754d-43f3-b1c3-984ff34d590d">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Document" id="d6191456f-56c3-4fb1-9eb5-c45b05088549" name="Treatment" references="ddc7eed4a-79a8-4e70-9cd7-b2cc72989f55 d95f9db8a-ecfd-44a3-ba01-1b85af1d64f4" goalsProducing="pebfd5b91-fa21-4950-aa21-ec11d24b9a8e" actorOwner="r9abece32-a8b1-484b-bd0b-2da0c4c99fb6" TransmittedTo="t6296f43e-3571-4f15-bfcb-aa8c895d6204">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="200,199,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="132,179,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Produce" id="pebfd5b91-fa21-4950-aa21-ec11d24b9a8e" target="d6191456f-56c3-4fb1-9eb5-c45b05088549" source="gbf917ecc-754d-43f3-b1c3-984ff34d590d">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:DocumentReference" id="ddc7eed4a-79a8-4e70-9cd7-b2cc72989f55" name="Treatment" actorOwner="r0d01ee95-9aec-427a-ae50-7862ed7a0a85" TransmittedTo="t30511ccd-0d0c-44cb-998f-793d7a6656e2" reference="d6191456f-56c3-4fb1-9eb5-c45b05088549" transmittedFrom="t6296f43e-3571-4f15-bfcb-aa8c895d6204">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="262,135,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:TransmissionIncomingLink" id="t5b377e84-80b9-40ea-85ce-0b35f028041d" target="t6296f43e-3571-4f15-bfcb-aa8c895d6204" source="r9abece32-a8b1-484b-bd0b-2da0c4c99fb6">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:TransmissionOutgoingLink" id="t7cc61ac6-980b-49a5-8977-f124ec893d34" source="t6296f43e-3571-4f15-bfcb-aa8c895d6204" target="r0d01ee95-9aec-427a-ae50-7862ed7a0a85">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Transmission" id="t6296f43e-3571-4f15-bfcb-aa8c895d6204" name="Treatment" outgoingTransmissionLink="t7cc61ac6-980b-49a5-8977-f124ec893d34" incomingTransmissionLink="t5b377e84-80b9-40ea-85ce-0b35f028041d" sourceDocument="d6191456f-56c3-4fb1-9eb5-c45b05088549" targetDocument="ddc7eed4a-79a8-4e70-9cd7-b2cc72989f55">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="382,619,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:DocumentReference" id="d95f9db8a-ecfd-44a3-ba01-1b85af1d64f4" name="Treatment" actorOwner="re8394e69-449f-4c57-84c3-9219e716cd4e" reference="d6191456f-56c3-4fb1-9eb5-c45b05088549" transmittedFrom="t30511ccd-0d0c-44cb-998f-793d7a6656e2">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="126,30,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:TransmissionIncomingLink" id="t080a79d2-ebc8-429f-8ddb-5e0f50eb6180" target="t30511ccd-0d0c-44cb-998f-793d7a6656e2" source="r0d01ee95-9aec-427a-ae50-7862ed7a0a85">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:TransmissionOutgoingLink" id="tb38bccfc-71be-47f0-927e-d92b7e9fdff1" source="t30511ccd-0d0c-44cb-998f-793d7a6656e2" target="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Transmission" id="t30511ccd-0d0c-44cb-998f-793d7a6656e2" name="Treatment" outgoingTransmissionLink="tb38bccfc-71be-47f0-927e-d92b7e9fdff1" incomingTransmissionLink="t080a79d2-ebc8-429f-8ddb-5e0f50eb6180" sourceDocument="ddc7eed4a-79a8-4e70-9cd7-b2cc72989f55" targetDocument="d95f9db8a-ecfd-44a3-ba01-1b85af1d64f4">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="626,320,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Information" id="ibedc085d-e446-4bf5-9d0d-663ac98b72d8" name="CprNumber" owners="od4a4e7a8-efff-4f8e-ab0b-90e0691773fe" tangibleElements="t198514e0-3297-4561-a38c-d61efed1b495" authorizations="a9e62aab5-b656-4aeb-ac6f-5395744ff2cf af23de86c-4a51-47e8-9eb0-29b6d0814b44">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="361,497,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="471,250,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Own" id="od4a4e7a8-efff-4f8e-ab0b-90e0691773fe" target="ibedc085d-e446-4bf5-9d0d-663ac98b72d8" source="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:DocumentReference" id="db936048e-be48-4e32-8bee-8a239d658a16" name="Medical History" actorOwner="rc599f9ea-725d-46a8-bdda-5f2d99f243c8" reference="d204dd52f-138d-4809-866d-50b346b2b678" transmittedFrom="t15336de9-8534-4c16-8a8a-1d45bdd94678">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="181,52,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:TransmissionIncomingLink" id="t30cce17f-027f-4021-82cc-3fbf20ec26dd" target="t15336de9-8534-4c16-8a8a-1d45bdd94678" source="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:TransmissionOutgoingLink" id="t2ad9bbc7-5563-4698-8b9a-dc7361dd1924" source="t15336de9-8534-4c16-8a8a-1d45bdd94678" target="rc599f9ea-725d-46a8-bdda-5f2d99f243c8">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Transmission" id="t15336de9-8534-4c16-8a8a-1d45bdd94678" name="Medical History" outgoingTransmissionLink="t2ad9bbc7-5563-4698-8b9a-dc7361dd1924" incomingTransmissionLink="t30cce17f-027f-4021-82cc-3fbf20ec26dd" sourceDocument="d204dd52f-138d-4809-866d-50b346b2b678" targetDocument="db936048e-be48-4e32-8bee-8a239d658a16">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="1161,203,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Goal" id="gf69234ca-932f-4ccd-b8eb-a352087fd1f6" name="Diagnosis Recieved" references="g4b20bc78-432a-4f18-af47-f9c77c4de916" incomingDecompositions="gcb5a4d1c-8a14-448a-a2c7-0802dc07fa11" delegatedTo="dbd6931e5-d2de-40d4-8fca-cb4386505188" actorOwner="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="187,157,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Goal" id="gcd4937eb-87fd-4dc3-8663-b05861bed980" name="Get Well" outgoingDecompositions="gcbb528c9-9c3e-4b1d-8e01-4b9a3ee5541f gcb5a4d1c-8a14-448a-a2c7-0802dc07fa11" actorOwner="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="120,86,100,70"/>
+  </elements>
+  <elements xsi:type="ststool:GoalDecomposition" id="gcbb528c9-9c3e-4b1d-8e01-4b9a3ee5541f" source="gcd4937eb-87fd-4dc3-8663-b05861bed980" target="g39893fae-7003-42e1-a04d-fe58fde11c99">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:GoalDecomposition" id="gcb5a4d1c-8a14-448a-a2c7-0802dc07fa11" source="gcd4937eb-87fd-4dc3-8663-b05861bed980" target="gf69234ca-932f-4ccd-b8eb-a352087fd1f6">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:GoalReference" id="g4b20bc78-432a-4f18-af47-f9c77c4de916" name="Diagnosis Recieved" outgoingDecompositions="g169e8e5b-3e14-4d27-90d5-c9570bc71eae g2e5b75c3-8c00-462b-98f8-981106b259c2" actorOwner="rc599f9ea-725d-46a8-bdda-5f2d99f243c8" reference="gf69234ca-932f-4ccd-b8eb-a352087fd1f6" delegatedFrom="dbd6931e5-d2de-40d4-8fca-cb4386505188">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="101,107,100,70"/>
+  </elements>
+  <elements xsi:type="ststool:DelegationIncomingLink" id="d0674ee9e-e497-4511-80f3-5a39bdacf866" target="dbd6931e5-d2de-40d4-8fca-cb4386505188" source="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:DelegationOutgoingLink" id="d613a6c35-6963-4d55-ad81-9b5b5ce9d4f1" source="dbd6931e5-d2de-40d4-8fca-cb4386505188" target="rc599f9ea-725d-46a8-bdda-5f2d99f243c8">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Delegation" id="dbd6931e5-d2de-40d4-8fca-cb4386505188" name="Diagnosis Recieved" incomingDelegationLink="d0674ee9e-e497-4511-80f3-5a39bdacf866" outgoingDelegationLink="d613a6c35-6963-4d55-ad81-9b5b5ce9d4f1" targetGoal="g4b20bc78-432a-4f18-af47-f9c77c4de916" sourceGoal="gf69234ca-932f-4ccd-b8eb-a352087fd1f6">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="1221,363,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Goal" id="gd704fe4b-d02d-4ef5-ba09-bc4d41993839" name="Lab Results Recieved" references="gc1aed20d-04fd-4d63-bd6e-6b4586f2197e" incomingDecompositions="g169e8e5b-3e14-4d27-90d5-c9570bc71eae" delegatedTo="dee6a2fe9-4971-4ed9-bd46-381603b36a5a" actorOwner="rc599f9ea-725d-46a8-bdda-5f2d99f243c8">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="178,181,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:GoalDecomposition" id="g169e8e5b-3e14-4d27-90d5-c9570bc71eae" source="g4b20bc78-432a-4f18-af47-f9c77c4de916" target="gd704fe4b-d02d-4ef5-ba09-bc4d41993839">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:GoalReference" id="gc1aed20d-04fd-4d63-bd6e-6b4586f2197e" name="Lab Results Recieved" actorOwner="r0aa83cff-fc84-4043-ab50-8710131c7e8b" reference="gd704fe4b-d02d-4ef5-ba09-bc4d41993839" delegatedFrom="dee6a2fe9-4971-4ed9-bd46-381603b36a5a">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="164,84,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:DelegationIncomingLink" id="d93d5de50-f551-43ce-a2e2-deaad4dc7212" target="dee6a2fe9-4971-4ed9-bd46-381603b36a5a" source="rc599f9ea-725d-46a8-bdda-5f2d99f243c8">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:DelegationOutgoingLink" id="d96e3752c-c4f9-40f1-a382-4fe518daf29f" source="dee6a2fe9-4971-4ed9-bd46-381603b36a5a" target="r0aa83cff-fc84-4043-ab50-8710131c7e8b">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Delegation" id="dee6a2fe9-4971-4ed9-bd46-381603b36a5a" name="Lab Results Recieved" incomingDelegationLink="d93d5de50-f551-43ce-a2e2-deaad4dc7212" outgoingDelegationLink="d96e3752c-c4f9-40f1-a382-4fe518daf29f" targetGoal="gc1aed20d-04fd-4d63-bd6e-6b4586f2197e" sourceGoal="gd704fe4b-d02d-4ef5-ba09-bc4d41993839">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="1445,552,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Document" id="d4f483403-2133-4931-a5b2-36ee4a49df0a" name="Lab Results" intangibleElements="ta828a3ec-1df5-4925-92e7-2b44a181c500" actorOwner="r0aa83cff-fc84-4043-ab50-8710131c7e8b">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="55,102,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="55,102,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Information" id="ie36e39cb-e346-495b-94d2-d5cacf80fa0e" name="Name" owners="o28cb711e-8984-44e3-9f47-6e73be816337" tangibleElements="t2b1476fc-3a71-4b9d-aede-547e770c0fcd" authorizations="a9e62aab5-b656-4aeb-ac6f-5395744ff2cf af23de86c-4a51-47e8-9eb0-29b6d0814b44">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="346,337,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="399,336,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Own" id="o28cb711e-8984-44e3-9f47-6e73be816337" target="ie36e39cb-e346-495b-94d2-d5cacf80fa0e" source="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:TangibleBy" id="t198514e0-3297-4561-a38c-d61efed1b495" source="ibedc085d-e446-4bf5-9d0d-663ac98b72d8" target="de2289737-ff04-44c8-a424-0cb8e9652d8a">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:TangibleBy" id="t2b1476fc-3a71-4b9d-aede-547e770c0fcd" source="ie36e39cb-e346-495b-94d2-d5cacf80fa0e" target="de2289737-ff04-44c8-a424-0cb8e9652d8a">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Authorization" id="af23de86c-4a51-47e8-9eb0-29b6d0814b44" produce="FORBIDDEN" read="AUTHORIZED" modification="FORBIDDEN" transmit="FORBIDDEN" incomingAuthorizationLink="acaf963dd-28ee-4511-8bb0-02161f375e88" outgoingAuthorizationLink="a85b7eb17-3449-4bc8-ba5d-7f4a39eaefdf" informations="ibedc085d-e446-4bf5-9d0d-663ac98b72d8 ie36e39cb-e346-495b-94d2-d5cacf80fa0e if8ac2578-4ae8-496e-ab2a-9a84685dabc4 i1427933f-94db-4d11-a67c-12f3f0577c64 i9b96c068-4aae-46ba-861f-63600351e4f2">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="768,227,297,102"/>
+  </elements>
+  <elements xsi:type="ststool:AuthorizationIncomingLink" id="acaf963dd-28ee-4511-8bb0-02161f375e88" source="re8394e69-449f-4c57-84c3-9219e716cd4e" target="af23de86c-4a51-47e8-9eb0-29b6d0814b44">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:AuthorizationOutgoingLink" id="a85b7eb17-3449-4bc8-ba5d-7f4a39eaefdf" target="r0d01ee95-9aec-427a-ae50-7862ed7a0a85" source="af23de86c-4a51-47e8-9eb0-29b6d0814b44">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Information" id="if8ac2578-4ae8-496e-ab2a-9a84685dabc4" name="Diagnosis" owners="o23231394-1dac-438e-a117-fb487a27b202" tangibleElements="t26e01edd-9644-44ba-bd49-20819ed9ec59" authorizations="a24e618b3-b8ba-4059-a895-c6b62f4ede50 af23de86c-4a51-47e8-9eb0-29b6d0814b44">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="621,764,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="352,420,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:TangibleBy" id="t26e01edd-9644-44ba-bd49-20819ed9ec59" source="if8ac2578-4ae8-496e-ab2a-9a84685dabc4" target="d44b2f3d2-de47-4179-9d97-db6f1ed07b5f">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Own" id="o23231394-1dac-438e-a117-fb487a27b202" target="if8ac2578-4ae8-496e-ab2a-9a84685dabc4" source="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Information" id="i1427933f-94db-4d11-a67c-12f3f0577c64" name="Results from Lab" owners="odbbae20a-8819-4cb3-8b64-d5f13129256d of31ae15c-6711-45a7-bcfe-175b33343c17" tangibleElements="ta828a3ec-1df5-4925-92e7-2b44a181c500" authorizations="aabd92898-5144-4f15-af31-6d3ea112a98a a9e62aab5-b656-4aeb-ac6f-5395744ff2cf af23de86c-4a51-47e8-9eb0-29b6d0814b44">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="1015,714,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="716,598,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:TangibleBy" id="ta828a3ec-1df5-4925-92e7-2b44a181c500" source="i1427933f-94db-4d11-a67c-12f3f0577c64" target="d4f483403-2133-4931-a5b2-36ee4a49df0a">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Own" id="odbbae20a-8819-4cb3-8b64-d5f13129256d" target="i1427933f-94db-4d11-a67c-12f3f0577c64" source="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information">
+      <bendpoints>241,216,-182,-150</bendpoints>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Own" id="of31ae15c-6711-45a7-bcfe-175b33343c17" target="i1427933f-94db-4d11-a67c-12f3f0577c64" source="r0aa83cff-fc84-4043-ab50-8710131c7e8b">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Authorization" id="aabd92898-5144-4f15-af31-6d3ea112a98a" produce="AUTHORIZED" read="AUTHORIZED" modification="AUTHORIZED" transmit="FORBIDDEN" incomingAuthorizationLink="af35117bc-7161-4fcd-9037-118585ce8b5c" outgoingAuthorizationLink="acc663582-7d60-4fac-9934-3734af690093" informations="i1427933f-94db-4d11-a67c-12f3f0577c64">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="771,408,118,78"/>
+  </elements>
+  <elements xsi:type="ststool:AuthorizationIncomingLink" id="af35117bc-7161-4fcd-9037-118585ce8b5c" source="re8394e69-449f-4c57-84c3-9219e716cd4e" target="aabd92898-5144-4f15-af31-6d3ea112a98a">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:AuthorizationOutgoingLink" id="acc663582-7d60-4fac-9934-3734af690093" target="r0aa83cff-fc84-4043-ab50-8710131c7e8b" source="aabd92898-5144-4f15-af31-6d3ea112a98a">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Authorization" id="a9e62aab5-b656-4aeb-ac6f-5395744ff2cf" produce="FORBIDDEN" read="AUTHORIZED" modification="FORBIDDEN" transmit="FORBIDDEN" incomingAuthorizationLink="afc35d514-9304-47bc-820b-4abe5d697132" outgoingAuthorizationLink="a96543a4c-ddeb-47d4-9aea-3d72934c5bdf" informations="ibedc085d-e446-4bf5-9d0d-663ac98b72d8 ie36e39cb-e346-495b-94d2-d5cacf80fa0e i1427933f-94db-4d11-a67c-12f3f0577c64">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="275,504,235,78"/>
+  </elements>
+  <elements xsi:type="ststool:AuthorizationIncomingLink" id="afc35d514-9304-47bc-820b-4abe5d697132" source="re8394e69-449f-4c57-84c3-9219e716cd4e" target="a9e62aab5-b656-4aeb-ac6f-5395744ff2cf">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:AuthorizationOutgoingLink" id="a96543a4c-ddeb-47d4-9aea-3d72934c5bdf" target="rc599f9ea-725d-46a8-bdda-5f2d99f243c8" source="a9e62aab5-b656-4aeb-ac6f-5395744ff2cf">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Authorization" id="a24e618b3-b8ba-4059-a895-c6b62f4ede50" produce="AUTHORIZED" read="AUTHORIZED" modification="AUTHORIZED" transmit="FORBIDDEN" incomingAuthorizationLink="a8334bd75-7dc4-40c4-a04b-bd14aa97ccbd" outgoingAuthorizationLink="aac560279-283c-4e45-8fc7-2b5162de4b7f" informations="if8ac2578-4ae8-496e-ab2a-9a84685dabc4">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="581,529,108,78"/>
+  </elements>
+  <elements xsi:type="ststool:AuthorizationIncomingLink" id="a8334bd75-7dc4-40c4-a04b-bd14aa97ccbd" source="re8394e69-449f-4c57-84c3-9219e716cd4e" target="a24e618b3-b8ba-4059-a895-c6b62f4ede50">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:AuthorizationOutgoingLink" id="aac560279-283c-4e45-8fc7-2b5162de4b7f" target="rc599f9ea-725d-46a8-bdda-5f2d99f243c8" source="a24e618b3-b8ba-4059-a895-c6b62f4ede50">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Document" id="dd317a52d-89a5-47d0-98b9-ff78ff25e707" name="Treatment Plan" partsOf="p98c1d363-b0cf-4a28-b6a6-23ce2f0a1187" intangibleElements="te0cc0f4f-f9e9-41df-b7bb-444704787662" actorOwner="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="447,204,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="457,145,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:PartOf" id="p98c1d363-b0cf-4a28-b6a6-23ce2f0a1187" source="dd317a52d-89a5-47d0-98b9-ff78ff25e707" target="d44b2f3d2-de47-4179-9d97-db6f1ed07b5f">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Information" id="i9b96c068-4aae-46ba-861f-63600351e4f2" name="Medication Info" owners="o9f8d3855-d2a5-4de7-851a-8394423166a9" tangibleElements="te0cc0f4f-f9e9-41df-b7bb-444704787662" authorizations="af23de86c-4a51-47e8-9eb0-29b6d0814b44 ad790292c-0289-4cc4-9c22-c08479eede07">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information" bound="996,273,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="619,233,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:TangibleBy" id="te0cc0f4f-f9e9-41df-b7bb-444704787662" source="i9b96c068-4aae-46ba-861f-63600351e4f2" target="dd317a52d-89a5-47d0-98b9-ff78ff25e707">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Own" id="o9f8d3855-d2a5-4de7-851a-8394423166a9" target="i9b96c068-4aae-46ba-861f-63600351e4f2" source="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information">
+      <bendpoints>152,-75,-250,0</bendpoints>
+    </graphicalConstraints>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Authorization" id="ad790292c-0289-4cc4-9c22-c08479eede07" produce="AUTHORIZED" read="AUTHORIZED" modification="FORBIDDEN" transmit="FORBIDDEN" incomingAuthorizationLink="ac857280e-8b9f-4ce7-9003-e1579aeb0f7c" outgoingAuthorizationLink="ad6c5d219-f37c-479f-88e5-efc252046cc4" informations="i9b96c068-4aae-46ba-861f-63600351e4f2">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="1251,367,114,78"/>
+  </elements>
+  <elements xsi:type="ststool:AuthorizationIncomingLink" id="ac857280e-8b9f-4ce7-9003-e1579aeb0f7c" source="r0d01ee95-9aec-427a-ae50-7862ed7a0a85" target="ad790292c-0289-4cc4-9c22-c08479eede07">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:AuthorizationOutgoingLink" id="ad6c5d219-f37c-479f-88e5-efc252046cc4" target="r9abece32-a8b1-484b-bd0b-2da0c4c99fb6" source="ad790292c-0289-4cc4-9c22-c08479eede07">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Goal" id="g4cf17dac-d4ef-41a1-b722-d6fac2891002" name="Treatment Delivered" incomingDecompositions="g5b75b004-af1c-4afb-9a3c-14437de848f7" actorOwner="r9abece32-a8b1-484b-bd0b-2da0c4c99fb6">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="195,138,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:GoalDecomposition" id="g5b75b004-af1c-4afb-9a3c-14437de848f7" source="g772d3617-e3e4-4cc8-8797-0fcab14b020a" target="g4cf17dac-d4ef-41a1-b722-d6fac2891002">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:GoalReference" id="g2877210a-38df-4873-b573-e9dbed2ac4c7" name="Treatment Recieved" outgoingDecompositions="g247f74a8-6f35-44c3-a535-a216b27bd94c g9e0d40fe-d205-47b1-98b4-4e15768920ca" actorOwner="r0d01ee95-9aec-427a-ae50-7862ed7a0a85" reference="g39893fae-7003-42e1-a04d-fe58fde11c99" delegatedFrom="dd443eab3-9312-4f44-bfbf-3a139cfec8d7">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="110,66,100,70"/>
+  </elements>
+  <elements xsi:type="ststool:GoalDecomposition" id="g247f74a8-6f35-44c3-a535-a216b27bd94c" source="g2877210a-38df-4873-b573-e9dbed2ac4c7" target="gdea0c66b-ef4a-4044-93d5-1b1c6f791654">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:DelegationIncomingLink" id="dc1b233e7-fb2a-4268-8cc5-2c97d6ce0d1d" target="dd443eab3-9312-4f44-bfbf-3a139cfec8d7" source="re8394e69-449f-4c57-84c3-9219e716cd4e">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:DelegationOutgoingLink" id="da8125143-a8d8-43c9-ba33-bc52d295c04b" source="dd443eab3-9312-4f44-bfbf-3a139cfec8d7" target="r0d01ee95-9aec-427a-ae50-7862ed7a0a85">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Delegation" id="dd443eab3-9312-4f44-bfbf-3a139cfec8d7" name="Treatment Recieved" incomingDelegationLink="dc1b233e7-fb2a-4268-8cc5-2c97d6ce0d1d" outgoingDelegationLink="da8125143-a8d8-43c9-ba33-bc52d295c04b" targetGoal="g2877210a-38df-4873-b573-e9dbed2ac4c7" sourceGoal="g39893fae-7003-42e1-a04d-fe58fde11c99">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="681,397,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:Goal" id="g9c6c2740-28ca-4af4-b77a-501d61f05927" name="Lab Results Analyzed" incomingDecompositions="g2e5b75c3-8c00-462b-98f8-981106b259c2" actorOwner="rc599f9ea-725d-46a8-bdda-5f2d99f243c8">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="64,181,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:GoalDecomposition" id="g2e5b75c3-8c00-462b-98f8-981106b259c2" source="g4b20bc78-432a-4f18-af47-f9c77c4de916" target="g9c6c2740-28ca-4af4-b77a-501d61f05927">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Goal" id="gc114f3df-6fa6-4273-884b-1ad0a8437372" name="Treatment Given" incomingDecompositions="g9e0d40fe-d205-47b1-98b4-4e15768920ca" actorOwner="r0d01ee95-9aec-427a-ae50-7862ed7a0a85">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="47,145,100,50"/>
+  </elements>
+  <elements xsi:type="ststool:GoalDecomposition" id="g9e0d40fe-d205-47b1-98b4-4e15768920ca" source="g2877210a-38df-4873-b573-e9dbed2ac4c7" target="gc114f3df-6fa6-4273-884b-1ad0a8437372">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+</ststool:STSDiagram>
