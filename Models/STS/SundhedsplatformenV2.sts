@@ -12,8 +12,8 @@
     </graphicalConstraints>
     <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="602,249,100,100"/>
   </elements>
-  <elements xsi:type="ststool:Role" id="rc980a213-e798-4bf2-ac94-e87f22812876" name="Doctor" incomingAuthorizations="a1fc0af7b-36d7-4089-983e-f2e0c655e616 a9389dd22-4e71-4be1-9cba-36a0128971ac" incomingDelegations="dc9d6c576-b02b-463a-be8c-e3bc5c5d3c1a" outgoingDelegations="d6ce9124b-1506-4ade-9a1f-278182929c8c d99e40161-8f7b-4393-a9a4-d179a2ff1a2a" incomingTransmissions="t39972bc9-834c-42a2-9faf-2d555a0a6639 t71971437-4d9c-4b65-b105-97803706deb7" outgoingTransmissions="tf8c6211c-c3ee-4a1a-9a29-1849af173681" goals="gb71dfd1e-717f-4852-8937-a1bdf909167b g84a1a087-9a00-4bad-bdc7-28931af1d750 gf106e302-f308-4cc2-bafb-e814b75ad8e1 g67496185-4146-47a2-9af6-9a7a4aa7e5b7 gd10981ba-ee33-431d-9c8c-965e61d8e0b7" documents="d60f0f52e-3e82-4347-b25c-9555556e51e1 d5b658c39-185a-4ea0-96b4-497e238dc8ae d3d6d4a2e-5634-46d8-8ce2-8cf6d44966fb">
-    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="987,248,666,318">
+  <elements xsi:type="ststool:Role" id="rc980a213-e798-4bf2-ac94-e87f22812876" name="Doctor" incomingAuthorizations="a1fc0af7b-36d7-4089-983e-f2e0c655e616 a9389dd22-4e71-4be1-9cba-36a0128971ac" incomingDelegations="dc9d6c576-b02b-463a-be8c-e3bc5c5d3c1a" outgoingDelegations="d6ce9124b-1506-4ade-9a1f-278182929c8c d99e40161-8f7b-4393-a9a4-d179a2ff1a2a" incomingTransmissions="t39972bc9-834c-42a2-9faf-2d555a0a6639 t71971437-4d9c-4b65-b105-97803706deb7" outgoingTransmissions="tf8c6211c-c3ee-4a1a-9a29-1849af173681" goals="gb71dfd1e-717f-4852-8937-a1bdf909167b g84a1a087-9a00-4bad-bdc7-28931af1d750 gf106e302-f308-4cc2-bafb-e814b75ad8e1 g67496185-4146-47a2-9af6-9a7a4aa7e5b7 gd10981ba-ee33-431d-9c8c-965e61d8e0b7 gaa0809d8-9ae3-425d-87d8-b86e7949bb22" documents="d60f0f52e-3e82-4347-b25c-9555556e51e1 d5b658c39-185a-4ea0-96b4-497e238dc8ae d3d6d4a2e-5634-46d8-8ce2-8cf6d44966fb">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="987,248,666,332">
       <properties name="compartment" value="true"/>
       <properties name="compartment_switch" value="100,100"/>
     </graphicalConstraints>
@@ -76,7 +76,7 @@
     <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
   </elements>
   <elements xsi:type="ststool:GoalReference" id="gb71dfd1e-717f-4852-8937-a1bdf909167b" name="outpatient record recieved" resourcesProduced="pd048e755-747a-4c4c-8275-c0e0d89f1939" authorizations="ac3d037d7-a144-4082-830f-fe7a6e77fa3b a8165a509-8c8c-47e9-b911-e29917755d36" outgoingDecompositions="g6a4741e2-0a05-41e0-b5b7-7d71ec5d6c17 g61320e19-63ab-4df4-8aa7-9d1f22fc804e" actorOwner="rc980a213-e798-4bf2-ac94-e87f22812876" reference="g26ecc166-9727-4a78-be0f-870957e5d836" delegatedFrom="d3e5098df-845a-4b16-89b3-6d706dc5e4b1">
-    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="156,56,100,70"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="137,82,100,70"/>
   </elements>
   <elements xsi:type="ststool:DelegationIncomingLink" id="de963abd1-c47e-4b32-94d8-a8d26669ab09" target="d3e5098df-845a-4b16-89b3-6d706dc5e4b1" source="r0eb905d4-fcbd-411b-bbb1-9041a3fba78c">
     <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
@@ -101,10 +101,10 @@
     </graphicalConstraints>
   </elements>
   <elements xsi:type="ststool:Goal" id="g84a1a087-9a00-4bad-bdc7-28931af1d750" name="patient examined" incomingDecompositions="g6a4741e2-0a05-41e0-b5b7-7d71ec5d6c17" actorOwner="rc980a213-e798-4bf2-ac94-e87f22812876">
-    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="47,139,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="50,154,100,50"/>
   </elements>
   <elements xsi:type="ststool:Goal" id="gf106e302-f308-4cc2-bafb-e814b75ad8e1" name="lab results recieved" references="gf98962c5-a5e3-4778-9ad4-904c367a82ab" resourceReaded="r71c7a1a3-c1df-456c-b69d-f5859dd1cfe4" incomingDecompositions="g1349e5ef-7b27-4cf3-a8bb-c8f66c646c33" delegatedTo="d94541b87-dc4e-485f-a1ad-99a30342733d" actorOwner="rc980a213-e798-4bf2-ac94-e87f22812876">
-    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="305,223,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="303,234,100,50"/>
   </elements>
   <elements xsi:type="ststool:GoalDecomposition" id="g6a4741e2-0a05-41e0-b5b7-7d71ec5d6c17" source="gb71dfd1e-717f-4852-8937-a1bdf909167b" target="g84a1a087-9a00-4bad-bdc7-28931af1d750">
     <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
@@ -112,10 +112,10 @@
     <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
   </elements>
   <elements xsi:type="ststool:Goal" id="g67496185-4146-47a2-9af6-9a7a4aa7e5b7" name="lab results analyzed" resourceReaded="r41dcf4cf-deaa-42e0-97ed-2a7ccf976455" outgoingDecompositions="g4d47707e-7c42-4dd4-b409-dac5a2d053c4 g1349e5ef-7b27-4cf3-a8bb-c8f66c646c33" incomingDecompositions="g61320e19-63ab-4df4-8aa7-9d1f22fc804e" actorOwner="rc980a213-e798-4bf2-ac94-e87f22812876">
-    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="227,139,100,70"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="230,149,100,70"/>
   </elements>
   <elements xsi:type="ststool:Goal" id="gd10981ba-ee33-431d-9c8c-965e61d8e0b7" name="tests taken" references="gdb6aab06-1cac-48d2-a9f3-2ef94ec9b58a" incomingDecompositions="g4d47707e-7c42-4dd4-b409-dac5a2d053c4" delegatedTo="d0859dcab-a5ce-4c00-b255-132345489de1" actorOwner="rc980a213-e798-4bf2-ac94-e87f22812876">
-    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="129,219,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="128,234,100,50"/>
   </elements>
   <elements xsi:type="ststool:GoalDecomposition" id="g61320e19-63ab-4df4-8aa7-9d1f22fc804e" source="gb71dfd1e-717f-4852-8937-a1bdf909167b" target="g67496185-4146-47a2-9af6-9a7a4aa7e5b7">
     <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
@@ -511,5 +511,8 @@
     <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
     <graphicalConstraints viewID="it.unitn.disi.ststool.view.information"/>
     <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
+  </elements>
+  <elements xsi:type="ststool:Goal" id="gaa0809d8-9ae3-425d-87d8-b86e7949bb22" name="health service given" actorOwner="rc980a213-e798-4bf2-ac94-e87f22812876">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="185,18,100,50"/>
   </elements>
 </ststool:STSDiagram>
