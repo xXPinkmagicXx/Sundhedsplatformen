@@ -35,7 +35,7 @@
     <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization" bound="1181,448,100,100"/>
   </elements>
   <elements xsi:type="ststool:Role" id="r5395ce33-a85d-42e1-b80e-54cb94c0f995" name="Nurse" incomingAuthorizations="ac6d8abeb-a71f-433a-b879-c329d49cb233 a3082d8b1-7baa-417f-9679-0613bb27dfdd" incomingDelegations="d5b32c860-77c2-4b1d-a0b3-7d22a0fa39eb" outgoingDelegations="d3dbb2bdb-e8c2-42f6-a6ae-52b27bc7d9be" incomingTransmissions="tc6cbef40-38c4-40b1-a01f-ee95e0033c2c t462dbcd0-5f68-4044-980e-41c6ba98b23f tc76436f9-f3d9-40e6-b79d-484992c09d7f" outgoingTransmissions="te758ca49-f31b-4146-b2da-7d87536c8897 tde6e4734-d2eb-4404-9311-9aa1a71fbe01" goals="gf2f013f8-128f-4948-bccc-eb7db0fc12a8 g932e2bc7-85f8-4cbc-8318-6df8bc4edd59 g6e9e0f77-947e-428f-8000-2cf13c102119" documents="d631840c3-c047-497b-865c-6b8b7f84a348 d56696d5b-c4fb-4c6e-b0af-fe2ae069e80a d4e2e0da2-fe5d-49f9-b186-67eef7069586">
-    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="69,156,482,294">
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="69,156,516,322">
       <properties name="compartment" value="true"/>
       <properties name="compartment_switch" value="100,100"/>
     </graphicalConstraints>
@@ -277,7 +277,7 @@
     <graphicalConstraints viewID="it.unitn.disi.ststool.view.authorization"/>
   </elements>
   <elements xsi:type="ststool:DocumentReference" id="ddfa2eec8-a758-4efd-af66-060cd7da526c" name="outpatient record" goalsReading="r44c628c0-3b10-46e1-aee9-1232ffcf8ca7" actorOwner="r0eb905d4-fcbd-411b-bbb1-9041a3fba78c" reference="d3d6d4a2e-5634-46d8-8ce2-8cf6d44966fb" transmittedFrom="tc44517e0-ad14-4a89-9035-c8f4093192a9">
-    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="291,230,100,50"/>
+    <graphicalConstraints viewID="it.unitn.disi.ststool.view.social" bound="314,230,100,50"/>
   </elements>
   <elements xsi:type="ststool:TransmissionIncomingLink" id="tbc3f7d3b-ddf7-4ca0-b293-2a69d7b53465" target="tc44517e0-ad14-4a89-9035-c8f4093192a9" source="rc980a213-e798-4bf2-ac94-e87f22812876">
     <graphicalConstraints viewID="it.unitn.disi.ststool.view.social"/>
